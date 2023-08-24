@@ -8,13 +8,11 @@ function rollDice() {
   diceOne.src = "images/dice" + rollDiceOne + ".png";
   diceTwo.src = "images/dice" + rollDiceTwo + ".png";
 
-  if(rollDiceOne > rollDiceTwo) {
+  if (rollDiceOne > rollDiceTwo) {
     winner.innerHTML = "Player 1 Wins";
-  }
-  else if(rollDiceOne < rollDiceTwo) {
+  } else if (rollDiceOne < rollDiceTwo) {
     winner.innerHTML = "Player 2 Wins";
-  }
-  else {
+  } else {
     winner.innerHTML = "Draw!";
   }
 }
